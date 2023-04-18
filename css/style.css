@@ -1,0 +1,78 @@
+nav .navbar-brand .logo-img {
+  width: 30%;
+  height: 30%;
+}
+a {
+  text-decoration: unset;
+  font-size: small;
+}
+.nav-item a:focus,
+.nav-item a:hover {
+  outline: #009ad8 solid 2px;
+  outline-offset: 5px !important;
+  border-radius: 50px;
+
+  color: #009ad8 !important;
+}
+
+.nav-item .active-always {
+  outline: #009ad8 solid 2px;
+  outline-offset: 5px !important;
+  border-radius: 50px;
+
+  color: #009ad8 !important;
+}
+.home-sec {
+  min-height: 80vh;
+  background-image: url(../images/banner.png);
+  background-size: 100% 50%;
+  background-repeat: no-repeat;
+}
+.input-search .input-group .padding-outer {
+  right: 1%;
+  bottom: 1%;
+  top: 1%;
+  z-index: 999;
+}
+.card-body .degree-img .degree {
+  font-size: 70px;
+  font-weight: bolder;
+}
+.card-body .degree-img img {
+  width: 20%;
+  height: 20%;
+}
+.card {
+  border: 1px transparent !important;
+}
+
+.weather-container {
+  border-color: transparent !important;
+}
+
+.dark-gray {
+  background-color: rgb(0, 0, 0, 0.1);
+}
+.footer-sec .input-group button {
+  right: 1%;
+  bottom: 6%;
+  top: 6%;
+  z-index: 999;
+}
+.footer-sec .icons .icon {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(14, 14, 14, 0.836);
+  border-radius: 50%;
+}
+
+.footer-sec .icons .icon:hover {
+  background-color: #009ad8;
+  color: white !important;
+}
+.footer-sec .input-group input {
+  z-index: 900;
+}
+.navbar {
+  background-color: black !important;
+}

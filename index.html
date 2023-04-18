@@ -1,0 +1,163 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- navbar  -->
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-black">
+      <div class="container">
+        <a class="navbar-brand d-flex p-4" href="#">
+          <img src="./images/logo2x.png" class="logo-img p-2" alt="logo-weather">
+          <div class="logo-text p-2">
+            <span class="fs-5 link-light">weather</span>
+            <h6 class="fs-6 link-secondary">tagline goes here</h6>
+          </div>
+        </a>
+        <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item p-4">
+              <a class="nav-link active-always px-4 py-1 active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item p-4">
+              <a class="nav-link link-light px-4 py-1" href="#">News</a>
+            </li>
+            <li class="nav-item p-4">
+              <a class="nav-link link-light px-4 py-1" href="#">Live Cameras</a>
+            </li>
+            <li class="nav-item p-4">
+              <a class="nav-link link-light px-4 py-1" href="#">photos</a>
+            </li>
+            <li class="nav-item p-4">
+              <a class="nav-link link-light px-4 py-1" href="./html/contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar  -->
+    <!-- home section  -->
+    <section class="home-sec bg-black">
+      <div class="input-search d-flex justify-content-center pt-5 container">
+        <div class="input-group mb-3">
+          <input type="text" class="form-control  bg-black text-white position-relative border-dark py-4 rounded-pill" placeholder="find your location..." aria-label="Recipient's username" aria-describedby="button-addon2" id="searchInput">
+          <div class="padding-outer position-absolute d-flex py-1 align-items-center">
+            <button class="btn btn-primary rounded-pill px-5 p-3 " type="button" id="button-addon2">Find</button>
+          </div>
+        </div>
+      </div>
+      
+     <!-- weather section -->
+      <div class="weather-sec container"> 
+        <div class="weather-container row p-0 m-0 border" id="weather">
+            <!-- <div class="card col-md-4 bg-dark p-0 mx-0  border-0">
+              <div class="card-s d-flex justify-content-between dark-gray p-1  w-100">
+                <p class="text-secondary">Thursday</p>
+                <p class="text-secondary">16February</p>
+              </div>
+              <div class="card-body bg-dark">
+                <p class="text-secondary">cairo</p>
+                  <div class="degree-img d-flex align-items-center justify-content-between">
+                    <div class="degree text-light p-2">
+                      17<sup>o</sup>C
+                    </div>
+                    <img src="./images/116.png" alt="cloudy-img">
+                  </div>
+                  <p class="text-info p-2">Partly cloudy</p>
+                  <div class="card-end bg-transparent d-flex justify-content-around">
+                    <div class="icon-word text-secondary">
+                      <i class="fa-solid fa-umbrella"></i>
+                      <span>20%</span>
+                    </div>
+                    <div class="icon-word text-secondary">
+                      <i class="fa-solid fa-wind"></i>
+                      <span>18km/h</span>
+                    </div>
+                    <div class="icon-word text-secondary">
+                      <i class="fa-regular fa-compass"></i>
+                      <span>East</span>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card col-md-4 bg-dark p-0 mx-0  border-0">
+              <div class="card-s d-flex justify-content-center bg-black opacity-25 p-1  w-100">
+                <p class="text-secondary">Friday</p>
+              </div>
+              <div class="card-body  text-center bg-black opacity-50">
+                  <div class="degree-img d-flex align-items-center justify-content-center">
+                    <img src="./images/113.png" alt="sunny-img">
+                  </div>
+                  <p class="text-white p-1 fw-bolder fs-2 ">19.3<sup>o</sup>C</p>
+                  <p  class="text-secondary p-1">9<sup>o</sup></p>
+                  <p  class="text-info p-2">sunny</sup></span>
+              </div>
+            </div>
+            <div class="card bg-dark col-md-4  p-0 mx-0  border-0">
+              <div class="card-s d-flex justify-content-center p-1 dark-gray  w-100">
+                <p class="text-secondary">Saturday</p>
+              </div>
+              <div class="card-body bg-dark text-center">
+                  <div class="degree-img d-flex align-items-center justify-content-center">
+                    <img src="./images/113.png" alt="sunny-img">
+                  </div>
+                  <p class="text-white p-1 fw-bolder fs-2 ">20.8<sup>o</sup>C</p>
+                  <p  class="text-secondary p-1">9.1<sup>o</sup></p>
+                  <p  class="text-info p-2">sunny</sup></span>
+              </div>
+            </div> -->
+        </div>
+      </div>
+      <!-- end weather section  -->
+    </section>
+    <!-- end home section  -->
+    <!-- footer  -->
+   
+    <div class="footer-sec bg-dark">
+      
+        <div class=" container">
+          <div class="row  d-flex justify-content-between  align-items-center p-5 ">
+            <div class="input-btn col-md-6">
+              <div class="input-group mb-3 d-flex align-items-center">
+                <input type="text" class="form-control bg-black text-white position-relative border-dark rounded-pill p-3" placeholder="Enter your name to subscribe..." aria-label="Recipient's username" aria-describedby="button-addon2">
+                <div class="btn-container">
+                  <button class="btn btn-primary position-absolute rounded-pill  px-4" type="button" id="button-addon2">subscribe</button>
+                </div>
+              </div>
+            </div>
+            <div class="icons d-flex justify-content-center p-5 text-center col-md-6">
+              <div class="icon mx-2 fs-4 d-flex justify-content-center text-primary align-items-center">
+                <i class="fa-brands fa-facebook-f"></i>
+              </div>
+              <div class="icon mx-2 fs-4 d-flex text-primary justify-content-center align-items-center">
+                <i class="fa-brands fa-twitter"></i>
+              </div>
+              <div class="icon mx-2 fs-4 d-flex justify-content-center text-primary align-items-center">
+                <i class="fa-brands fa-google-plus-g"></i>
+              </div>
+              <div class="icon mx-2 fs-4 d-flex justify-content-center text-primary align-items-center">
+                <i class="fa-brands fa-pinterest-p"></i>
+              </div>
+            </div>
+            <div class="footer-text text-center py-3 col-md-12">
+              <h6 class="text-secondary text-center mb-2">Copyright 2014 Company name. Designed by Themezy. All rights reserved</h6>
+            </div>
+          </div>
+        </div>
+        
+
+    </div>
+    <!-- end footer  -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
